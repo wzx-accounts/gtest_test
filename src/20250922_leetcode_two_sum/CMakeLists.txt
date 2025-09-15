@@ -1,0 +1,1 @@
+add_library(twosum SHARED two_sum.cpp)
