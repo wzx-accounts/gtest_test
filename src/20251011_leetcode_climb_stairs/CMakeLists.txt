@@ -1,0 +1,1 @@
+add_library(climb_stairs SHARED climb_stairs.cpp)

@@ -36,6 +36,9 @@ add_executable(gtest_project ${SRC_FILES})
 target_link_libraries(gtest_project gtest gmock)
 
 # 链接自己测试代码的库
-target_link_libraries(gtest_project twosum)
+target_link_libraries(gtest_project
+        twosum
+        climb_stairs
+)
 
 add_subdirectory(src)
